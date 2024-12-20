@@ -3,7 +3,7 @@
 Este repositório serve como um espaço para organizar e armazenar todos os meus projetos academicosdesenvolvidos em Python. \
 Aqui, você encontrará uma variedade de códigos que abrangem diferentes conceitos e técnicas da linguagem coma ideia de motivar as pessoas a começarem a programar com códigos uteis e divertidos.
 
-Sinta-se à vontade para explorar, aprender e contribuir com os projetos!
+Sinta-se à vontade para explorar, aprender e contribuir com os projetos em questão!
 
 ## Contribuições
 
