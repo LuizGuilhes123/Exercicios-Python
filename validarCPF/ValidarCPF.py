@@ -55,7 +55,7 @@ class ValidadorCPF:
             print(f"O CPF {cpf} é válido.")
             print(f"Seu CPF é originário do estado de {mensagem}.")
         else:
-            print(f"O CPF {cpf} não é válido. {mensagem}")
+            print(f"O CPF {cpf} não é válido.Tente novamente {mensagem}")
 
 if __name__ == "__main__":
     validador = ValidadorCPF()

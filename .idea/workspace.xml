@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="255550a2-2eaf-4453-8321-a89252f49534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TodoList/TodoList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relogio/relogioPython.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validarCPF/ValidarCPF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +39,10 @@
     "Python.ValidarCPF.executor": "Run",
     "Python.jarvisPLN.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.relogioPython.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Merging master",
     "last_opened_file_path": "C:/Users/Guilherme/Downloads/ProjetosPessoais/projetoTeste",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
