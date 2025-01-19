@@ -3,24 +3,26 @@ import subprocess
 import webbrowser
 import time
 
-# Configuração do navegador Opera
-OPERA_PATH = r"C:\Program Files\Opera\launcher.exe"
+# Caminho correto para o executável do Opera GX
+OPERA_PATH = r"C:\Users\Guilherme\AppData\Local\Programs\OperaGX\opera.exe"
 webbrowser.register('opera', None, webbrowser.BackgroundBrowser(OPERA_PATH))
 
+# Caminho correto para o Visual Studio Code
+VS_CODE_PATH = r"C:\Users\Guilherme\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 
-def abrir_navegador(url):
-    """Abre o Opera com a URL especificada."""
+def abrir_navegador(busca):
+    """Abre o Opera GX com a pesquisa específica."""
+    url = f"https://www.google.com/search?q={busca}"  # Pesquisa no Google
     webbrowser.get('opera').open(url)
     time.sleep(2)
 
-
-def criar_aba(url):
-    """Abre uma nova aba no Opera."""
+def criar_aba(busca):
+    """Abre uma nova aba no Opera GX com a pesquisa."""
+    url = f"https://www.google.com/search?q={busca}"  # Pesquisa no Google
     webbrowser.get('opera').open_new_tab(url)
 
-
 def fechar_janelas():
-    """Fecha janelas do Opera."""
+    """Fecha janelas do Opera GX."""
     if os.name == "nt":  # Windows
         os.system("taskkill /IM opera.exe /F")
     elif os.name == "posix":  # Linux/Mac
@@ -28,33 +30,28 @@ def fechar_janelas():
     else:
         print("Sistema não suportado para fechamento de janelas.")
 
-
 def abrir_vscode():
-    """Abre o Visual Studio Code como administrador."""
-    caminho = r"C:\Users\Guilherme\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code"
-    subprocess.run(["powershell", "-Command", f"Start-Process '{caminho}' -Verb RunAs"])
-
+    """Abre o Visual Studio Code."""
+    subprocess.run([VS_CODE_PATH])
 
 def abrir_pycharm():
     """Abre o PyCharm como administrador."""
     caminho = r"C:\Program Files\JetBrains\PyCharm Community Edition 2024.3\bin\pycharm64.exe"
     subprocess.run(["powershell", "-Command", f"Start-Process '{caminho}' -Verb RunAs"])
 
-
 def abrir_intellij():
     """Abre o IntelliJ IDEA como administrador."""
     caminho = r"C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin\idea64.exe"
     subprocess.run(["powershell", "-Command", f"Start-Process '{caminho}' -Verb RunAs"])
 
-
 def menu():
     """Menu principal para o usuário selecionar a ação desejada."""
     while True:
         print("\nAssistente Dev - Escolha uma opção:")
-        print("1. Abrir navegador com URL específica (Opera)")
-        print("2. Criar nova aba no navegador (Opera)")
-        print("3. Fechar todas as janelas do Opera")
-        print("4. Abrir VSCode (como admin)")
+        print("1. Pesquisar no Opera GX")
+        print("2. Criar nova aba no Opera GX com pesquisa")
+        print("3. Fechar todas as janelas do Opera GX")
+        print("4. Abrir VSCode")
         print("5. Abrir PyCharm (como admin)")
         print("6. Abrir IntelliJ (como admin)")
         print("0. Sair")
@@ -62,11 +59,11 @@ def menu():
         escolha = input("Digite sua escolha: ")
 
         if escolha == "1":
-            url = input("Digite a URL que deseja abrir: ")
-            abrir_navegador(url)
+            busca = input("Digite o que deseja pesquisar: ")
+            abrir_navegador(busca)
         elif escolha == "2":
-            url = input("Digite a URL para a nova aba: ")
-            criar_aba(url)
+            busca = input("Digite o que deseja pesquisar para a nova aba: ")
+            criar_aba(busca)
         elif escolha == "3":
             fechar_janelas()
         elif escolha == "4":
@@ -80,7 +77,6 @@ def menu():
             break
         else:
             print("Opção inválida. Tente novamente.")
-
 
 if __name__ == "__main__":
     menu()
