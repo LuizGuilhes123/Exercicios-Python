@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="255550a2-2eaf-4453-8321-a89252f49534" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/tarefas.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/tarefas.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assistenteDev/AssistenteDev.py" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/AssistenteDev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/AssistenteDev.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/AssistenteDev.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/dist/AssistenteDev.exe" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/dist/AssistenteDev.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,10 +213,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.AssistenteDev" />
+        <item itemvalue="Python.TodoList" />
         <item itemvalue="Python.MonitorProdutividade" />
         <item itemvalue="Python.AssistenteFinancas" />
         <item itemvalue="Python.OrganizadorArquivos" />
-        <item itemvalue="Python.TodoList" />
       </list>
     </recent_temporary>
   </component>

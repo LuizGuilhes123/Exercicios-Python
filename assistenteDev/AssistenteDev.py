@@ -4,7 +4,7 @@ import webbrowser
 import time
 
 # Caminho correto para o executável do Opera GX
-OPERA_PATH = r"C:\Users\Guilherme\AppData\Local\Programs\Opera GX\opera.exe"
+OPERA_PATH = r"C:\Users\Guilherme\AppData\Local\Programs\OperaGX\opera.exe"
 webbrowser.register('opera', None, webbrowser.BackgroundBrowser(OPERA_PATH))
 
 # Caminho correto para o Visual Studio Code
