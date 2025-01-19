@@ -65,11 +65,11 @@ def ouvir_microfone():
             os.system("start winword.exe")
             falar("Abrindo o Word")
             return False
-        elif "Jarvis acessar CMD" in frase:
+        elif "CMD" in frase:
             os.system("start cmd.exe")
             falar("Abrindo o prompt de comando")
             return False
-        elif "Jarvis desligar" in frase:
+        elif "desligar" in frase:
             falar("Desligando o sistema. Até logo.")
             os.system("exit")
             return True

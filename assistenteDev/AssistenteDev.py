@@ -21,6 +21,21 @@ def criar_aba(busca):
     url = f"https://www.google.com/search?q={busca}"  # Pesquisa no Google
     webbrowser.get('opera').open_new_tab(url)
 
+def abrir_youtube():
+    """Abre o YouTube no Opera GX."""
+    url = "https://www.youtube.com"
+    webbrowser.get('opera').open(url)
+
+def abrir_chatgpt():
+    """Abre o ChatGPT no Opera GX."""
+    url = "https://chat.openai.com"
+    webbrowser.get('opera').open(url)
+
+def abrir_github():
+    """Abre o perfil do GitHub no Opera GX."""
+    url = "https://github.com/LuizGuilhes123"
+    webbrowser.get('opera').open(url)
+
 def fechar_janelas():
     """Fecha janelas do Opera GX."""
     if os.name == "nt":  # Windows
@@ -50,10 +65,13 @@ def menu():
         print("\nAssistente Dev - Escolha uma opção:")
         print("1. Pesquisar no Opera GX")
         print("2. Criar nova aba no Opera GX com pesquisa")
-        print("3. Fechar todas as janelas do Opera GX")
-        print("4. Abrir VSCode")
-        print("5. Abrir PyCharm (como admin)")
-        print("6. Abrir IntelliJ (como admin)")
+        print("3. Abrir YouTube")
+        print("4. Abrir ChatGPT")
+        print("5. Abrir GitHub (perfil LuizGuilhes123)")
+        print("6. Fechar todas as janelas do Opera GX")
+        print("7. Abrir VSCode")
+        print("8. Abrir PyCharm (como admin)")
+        print("9. Abrir IntelliJ (como admin)")
         print("0. Sair")
 
         escolha = input("Digite sua escolha: ")
@@ -65,12 +83,18 @@ def menu():
             busca = input("Digite o que deseja pesquisar para a nova aba: ")
             criar_aba(busca)
         elif escolha == "3":
-            fechar_janelas()
+            abrir_youtube()
         elif escolha == "4":
-            abrir_vscode()
+            abrir_chatgpt()
         elif escolha == "5":
-            abrir_pycharm()
+            abrir_github()
         elif escolha == "6":
+            fechar_janelas()
+        elif escolha == "7":
+            abrir_vscode()
+        elif escolha == "8":
+            abrir_pycharm()
+        elif escolha == "9":
             abrir_intellij()
         elif escolha == "0":
             print("Saindo...")
