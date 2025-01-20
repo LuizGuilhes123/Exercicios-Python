@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="255550a2-2eaf-4453-8321-a89252f49534" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/J.A.R.V.I.S/jarvisPLN.py" beforeDir="false" afterPath="$PROJECT_DIR$/J.A.R.V.I.S/jarvisPLN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistenteDev/AssistenteDev.py" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/AssistenteDev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/AssistenteDev.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/AssistenteDev.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/warn-AssistenteDev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/warn-AssistenteDev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/xref-AssistenteDev.html" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/xref-AssistenteDev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistenteDev/dist/AssistenteDev.exe" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/dist/AssistenteDev.exe" afterDir="false" />
-    </list>
+    <list default="true" id="255550a2-2eaf-4453-8321-a89252f49534" name="Changes" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,30 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.AssistenteDev.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AssistenteFinancas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AssistenteRefeicoes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MonitorProdutividade.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OrganizadorArquivos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TodoList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ValidarCPF.executor&quot;: &quot;Run&quot;,
-    &quot;Python.decriptador.executor&quot;: &quot;Run&quot;,
-    &quot;Python.encriptador.executor&quot;: &quot;Run&quot;,
-    &quot;Python.geradorSenha.executor&quot;: &quot;Run&quot;,
-    &quot;Python.jarvisPLN.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.relogioPython.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Guilherme/Downloads/ProjetosPessoais/SEFAZ/Exercicios-Python&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.AssistenteDev.executor": "Run",
+    "Python.AssistenteFinancas.executor": "Run",
+    "Python.AssistenteRefeicoes.executor": "Run",
+    "Python.MonitorProdutividade.executor": "Run",
+    "Python.OrganizadorArquivos.executor": "Run",
+    "Python.TodoList.executor": "Run",
+    "Python.ValidarCPF.executor": "Run",
+    "Python.decriptador.executor": "Run",
+    "Python.encriptador.executor": "Run",
+    "Python.geradorSenha.executor": "Run",
+    "Python.jarvisPLN.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.relogioPython.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "feature/22",
+    "last_opened_file_path": "C:/Users/Guilherme/Downloads/ProjetosPessoais/SEFAZ/Exercicios-Python",
+    "settings.editor.selected.configurable": "preferences.pathVariables"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.jarvisPLN">
     <configuration name="AssistenteDev" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projetoTeste" />
