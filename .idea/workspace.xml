@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="255550a2-2eaf-4453-8321-a89252f49534" name="Changes" comment="Update" />
+    <list default="true" id="255550a2-2eaf-4453-8321-a89252f49534" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gravadorTela/gravadorTela.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/AssistenteDev.py" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/AssistenteDev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/AssistenteDev.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/AssistenteDev.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/warn-AssistenteDev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/warn-AssistenteDev.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/xref-AssistenteDev.html" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/build/AssistenteDev/xref-AssistenteDev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistenteDev/dist/AssistenteDev.exe" beforeDir="false" afterPath="$PROJECT_DIR$/assistenteDev/dist/AssistenteDev.exe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,31 +64,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AssistenteDev.executor": "Run",
-    "Python.AssistenteFinancas.executor": "Run",
-    "Python.AssistenteRefeicoes.executor": "Run",
-    "Python.MonitorProdutividade.executor": "Run",
-    "Python.OrganizadorArquivos.executor": "Run",
-    "Python.TodoList.executor": "Run",
-    "Python.ValidarCPF.executor": "Run",
-    "Python.decriptador.executor": "Run",
-    "Python.encriptador.executor": "Run",
-    "Python.geradorSenha.executor": "Run",
-    "Python.jarvisPLN.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.relogioPython.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "feature/22",
-    "last_opened_file_path": "C:/Users/Guilherme/Downloads/ProjetosPessoais/SEFAZ/Exercicios-Python",
-    "settings.editor.selected.configurable": "preferences.pathVariables"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AssistenteDev.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AssistenteFinancas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AssistenteRefeicoes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MonitorProdutividade.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OrganizadorArquivos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TodoList.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidarCPF.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decriptador.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encriptador.executor&quot;: &quot;Run&quot;,
+    &quot;Python.geradorSenha.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gravadorTela.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jarvisPLN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.relogioPython.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/24&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Guilherme/Downloads/ProjetosPessoais/SEFAZ/Exercicios-Python&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.jarvisPLN">
+}</component>
+  <component name="RunManager" selected="Python.gravadorTela">
     <configuration name="AssistenteDev" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projetoTeste" />
       <option name="ENV_FILES" value="" />
@@ -88,6 +105,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assistenteDev/AssistenteDev.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OrganizadorArquivos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projetoTeste" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/organizadorArquivos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/organizadorArquivos/OrganizadorArquivos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,28 +157,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="encriptador" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projetoTeste" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/encriptadorSenha" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/encriptadorSenha/encriptador.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="geradorSenha" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projetoTeste" />
       <option name="ENV_FILES" value="" />
@@ -162,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jarvisPLN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gravadorTela" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projetoTeste" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,11 +188,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/J.A.R.V.I.S" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gravadorTela" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/J.A.R.V.I.S/jarvisPLN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gravadorTela/gravadorTela.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,18 +225,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.jarvisPLN" />
+        <item itemvalue="Python.gravadorTela" />
+        <item itemvalue="Python.OrganizadorArquivos" />
         <item itemvalue="Python.AssistenteDev" />
         <item itemvalue="Python.geradorSenha" />
         <item itemvalue="Python.decriptador" />
-        <item itemvalue="Python.encriptador" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
       </set>
     </attachedChunks>
   </component>

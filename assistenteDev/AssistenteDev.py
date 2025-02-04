@@ -21,6 +21,15 @@ def criar_aba(busca):
     url = f"https://www.google.com/search?q={busca}"  # Pesquisa no Google
     webbrowser.get('opera').open_new_tab(url)
 
+def fechar_todas_janelas():
+    """Fecha todas as janelas abertas no sistema (similar ao Alt+F4)."""
+    if os.name == "nt":  # Windows
+        os.system("taskkill /F /FI \"STATUS eq RUNNING\"")  # Fecha todas as janelas em execução
+    elif os.name == "posix":  # Linux/Mac
+        os.system("pkill -9")  # Mata todos os processos
+    else:
+        print("Sistema não suportado para fechamento de janelas.")
+
 def abrir_youtube():
     """Abre o YouTube no Opera GX."""
     url = "https://www.youtube.com"
@@ -65,13 +74,14 @@ def menu():
         print("\nAssistente Dev - Escolha uma opção:")
         print("1. Pesquisar no Opera GX")
         print("2. Criar nova aba no Opera GX com pesquisa")
-        print("3. Abrir YouTube")
-        print("4. Abrir ChatGPT")
-        print("5. Abrir GitHub (perfil LuizGuilhes123)")
-        print("6. Fechar todas as janelas do Opera GX")
-        print("7. Abrir VSCode")
-        print("8. Abrir PyCharm (como admin)")
-        print("9. Abrir IntelliJ (como admin)")
+        print("3. Fechar todas as janelas abertas (Alt+F4)")
+        print("4. Abrir YouTube")
+        print("5. Abrir ChatGPT")
+        print("6. Abrir GitHub (perfil LuizGuilhes123)")
+        print("7. Fechar todas as janelas do Opera GX")
+        print("8. Abrir VSCode")
+        print("9. Abrir PyCharm (como admin)")
+        print("10. Abrir IntelliJ (como admin)")
         print("0. Sair")
 
         escolha = input("Digite sua escolha: ")
@@ -83,18 +93,20 @@ def menu():
             busca = input("Digite o que deseja pesquisar para a nova aba: ")
             criar_aba(busca)
         elif escolha == "3":
-            abrir_youtube()
+            fechar_todas_janelas()
         elif escolha == "4":
-            abrir_chatgpt()
+            abrir_youtube()
         elif escolha == "5":
-            abrir_github()
+            abrir_chatgpt()
         elif escolha == "6":
-            fechar_janelas()
+            abrir_github()
         elif escolha == "7":
-            abrir_vscode()
+            fechar_janelas()
         elif escolha == "8":
-            abrir_pycharm()
+            abrir_vscode()
         elif escolha == "9":
+            abrir_pycharm()
+        elif escolha == "10":
             abrir_intellij()
         elif escolha == "0":
             print("Saindo...")

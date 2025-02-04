@@ -1,0 +1,8 @@
+# Ignorar a pasta build
+assistenteDev/build/
+
+# Ignorar a pasta dist
+assistenteDev/dist/
+
+# Ignorar o arquivo AssistenteDev.spec
+assistenteDev/AssistenteDev.spec
